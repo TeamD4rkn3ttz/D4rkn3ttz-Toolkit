@@ -1,0 +1,43 @@
+name: Feature request
+description: Propose a focused improvement or a new defensive skill.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or intelligence need
+      description: Explain the analyst decision or workflow this should support.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the desired behavior and likely package.
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language scope
+      options:
+        - Korean
+        - English
+        - Both, independently
+        - Language-neutral repository tooling
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: References or examples
+      description: Add sanitized examples or authoritative public references.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety
+      options:
+        - label: The proposal is intended for lawful defensive use and contains no sensitive data.
+          required: true

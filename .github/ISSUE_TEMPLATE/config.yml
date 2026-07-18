@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: https://github.com/TeamD4rkn3ttz/D4rkn3ttz-Toolkit/security/advisories/new
+    about: Report vulnerabilities or sensitive security concerns privately.

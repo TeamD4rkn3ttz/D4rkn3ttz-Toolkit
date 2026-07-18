@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this toolkit, please cite it using the metadata below."
+title: "TEAM_D4rkn3ttz Toolkit"
+type: software
+authors:
+  - name: "TEAM_D4rkn3ttz"
+version: 1.0.0
+date-released: 2026-07-19
+license: Apache-2.0
+repository-code: "https://github.com/TeamD4rkn3ttz/D4rkn3ttz-Toolkit"
+url: "https://github.com/TeamD4rkn3ttz/D4rkn3ttz-Toolkit"
+keywords:
+  - cyber-threat-intelligence
+  - threat-intelligence
+  - OSINT
+  - incident-response

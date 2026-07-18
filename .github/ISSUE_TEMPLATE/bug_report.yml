@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a reproducible problem in a skill, document, or validator.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Do not include secrets, personal data, stolen material, or live malicious payloads.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Korean threat intelligence skill
+        - English threat intelligence skill
+        - Validation workflow
+        - Repository documentation
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem
+      description: Describe what happened and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Safe reproduction steps
+      description: Provide a minimal, sanitized example.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include the commit, platform, and relevant tool version.
+  - type: checkboxes
+    id: conduct
+    attributes:
+      label: Safety checks
+      options:
+        - label: I removed secrets, personal data, stolen material, and unsafe payloads.
+          required: true
+        - label: This is not a confidential security vulnerability.
+          required: true
